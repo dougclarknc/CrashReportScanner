@@ -12,9 +12,9 @@ namespace CrashReportScanner
         public CrashPDF crashPDF;
         public CRS(string date, string filePath, CrashExcel cxl)
         {
-this.date = date;
-this.outputFilePath = filePath;
-this.outputExcel = cxl;
+            this.date = date;
+            this.outputFilePath = filePath;
+            this.outputExcel = cxl;
         }
     }
 }
